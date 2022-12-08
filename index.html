@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="En Pick Work encontrarás las mejores recomendaciones y servicios para mantener una vida saludable" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pick Work</title>
+
+  <!-- FAVICON -->
+
+  <link rel="shortcut icon"
+    href="https://res.cloudinary.com/dfiffp1jf/image/upload/v1668465959/Healty%20food/Logo/Logo_2copy_oyp9uq.svg"
+    type="image/x-icon" />
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Readex+Pro:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap" rel="stylesheet" />
+
+  <!-- ICONS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <nav class="menu-hamburguesa" id="menu-hamburguesa">
+    <div class="menu-hamburguesa__container">
+      <div class="menu-hamburguesa__top">
+        <p class="menu-title">Pick Work</p>
+        <i class="fa-solid fa-xmark" id="close-menu"></i>
+      </div>
+      <ul class="menu-hamburguesa__items" id="menu-hamburguesa__items">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#tips">Consejos</a></li>
+        <li>
+          <a href="#foods">Entrenamientos</a>
+        </li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#contact">Contactos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo-container">
+        <h1 id="logo">Pick Work</h1>
+      </div>
+      <nav class="nav">
+        <i class="fa-solid fa-bars menu-hamburguesa__logo" id="open-menu"></i>
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#home">Inicio</a></li>
+          <li class="nav__item"><a href="#tips">Consejos</a></li>
+          <li class="nav__item">
+            <a href="#foods">Entrenamientos</a>
+          </li>
+          <li class="nav__item"><a href="#services">Servicios</a></li>
+          <li class="nav__item"><a href="#contact">Contactos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero" id="home">
+    <picture class="hero__image">
+      <source srcset="./img/slider/Vida_saludable.png" media="(min-width: 1024px)">
+      <source srcset="./img/slider/vida_saludable_TB.png" media="(min-width: 748px)">
+      <img src="./img/slider/vida_saludable_MV.png" alt="Vida Saludable" width="100%" height="100%">
+    </picture>
+  </div>
+
+  <main>
+    <section class="presentation">
+      <div class="presentation__video-container">
+        <video controls
+          src="img/Video/MP4_PC.mp4"></video>
+      </div>
+
+      <div class="presentation__description-container" id="tips">
+        <div class="presentation__description">
+          <span>¿Qué ofrecemos?</span>
+          <h2>Nuestros Servicios</h2>
+          <p>
+            Te brindamos varios tipos diferentes de ayudas para qué te resulte
+            más fácil y divertido entrenar.
+          </p>
+        </div>
+
+        <div class="tips">
+          <div class="tips__container">
+            <div class="tips__img-container">
+              <img src="./img/Pastillas/ejercicios_MV.png" alt="Ejercicios" width="109px" height="120px">
+            </div>
+            <h2 class="tips__container">Ejercicios</h2>
+            <p class="tips__container">Los ejercicios más eficaces</p>
+          </div>
+          <div class="tips__container">
+            <div class="tips__img-container">
+              <img src="./img/Pastillas/calendario_MV.png" alt="Calendario" width="120px" height="114px">
+            </div>
+            <h2 class="tips__container">Calendario</h2>
+            <p class="tips__container">Rutina de entrenamiento</p>
+          </div>
+          <div class="tips__container">
+            <div class="tips__img-container">
+              <img src="./img/Pastillas/dieta_MV.png" alt="Dieta" width="120px" height="120px">
+            </div>
+            <h2 class="tips__container">Dieta</h2>
+            <p class="tips__container">Cronograma para la dieta</p>
+          </div>
+          <div class="tips__container">
+            <div class="tips__img-container">
+              <img src="./img/Pastillas/corazon_MV.png" alt="Cardio" width="120px" height="109px">
+            </div>
+            <h3 class="tips__container">Cardio</h3>
+            <p class="tips__container">Ejercicios para entrenar cardio</p>
+          </div>
+          <div class="tips__container">
+            <div class="tips__img-container">
+
+              <img src="./img/Pastillas/musculo_MV.png" alt="Masa muscular" width="109px" height="120px">
+            </div>
+            <h2 class="tips__container">Masa muscular</h2>
+            <p class="tips__container">Ganar masa muscular</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="foods" id="foods">
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/PESA_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/PESA_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/PESA_MV.png" alt="Pesas" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Entenamiento</p>
+          <h3>Músculo</h3>
+        </div>
+      </div>
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/PALTA_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/PALTA_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/PALTA_MV.png" alt="Palta" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Proteínas</p>
+          <h3>Recetas</h3>
+        </div>
+      </div>
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/CARDIO_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/CARDIO_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/CARDIO_MV.png" alt="Cardio" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Entenamiento</p>
+          <h3>Cardio</h3>
+        </div>
+      </div>
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/SOGA_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/SOGA_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/SOGA_MV.png" alt="Soga" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Entrenamiento</p>
+          <h4>Cardio</h4>
+        </div>
+      </div>
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/Agua_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/Agua_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/Agua_MV.png" alt="Agua" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Proteínas</p>
+          <h4>Recetas</h4>
+        </div>
+      </div>
+      <div class="foods__item">
+        <picture>
+          <source srcset="./img/Galleria/Frutas_PC.png" media="(min-width: 1024px)">
+          <source srcset="./img/Galleria/Frutas_TB.png" media="(min-width: 748px)">
+          <img src="./img/Galleria/Frutas_MV.png" alt="Frutas" width="100%">
+        </picture>
+        <div class="foods__item-description">
+          <p>Proteínas</p>
+          <h4>Recetas</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="services__item-container">
+        <img src="./img/Parrafos/Comunidad_MV.png" alt="Comunidad" class="service__item-img" width="92px" height="69px">
+        <p class="service__item-description">
+          Somos una comunidad que nos ayudamos entre nosotros. Por eso, proponemos una ruleta de ejercicios para que sea
+          la suerte quién decida la actividad a hacer los primeros días. Además de despertar la curiosidad de los
+          usuarios, ayudará a crear un momento divertido.
+        </p>
+      </div>
+      <div class="services__item-container flex-end">
+        <p class="service__item-description">
+          Brindar consejos de rutinas y comidas, que nos ayuden al momento de entrenar, es nuestro objetivo. Tenemos a
+          disposición un canal de Discord gratuito para que hagan consultas durante su primer mes, y sientan la compañía
+          y experencia de todo nuestro equipo entorno a la alimentación.
+
+        </p>
+        <img src="./img/Parrafos/tips_MV.png" alt="Consejos" class="service__item-img" width="92px" height="69px">
+      </div>
+      <div class="services__item-container">
+        <img src="./img/Parrafos/Healthy_MV.png" alt="Comida y entrenamientos" class="service__item-img" width="92px"
+          height="69px">
+        <p class="service__item-description">
+          En esta página podrán obtener todo lo que este relacionados con la comida y los entrenamientos. Creemos que
+          ambos temas deben ir de la mano para lograr una correcta recomposición corporal a la hora de llevar adelante
+          un entrenamiento.
+        </p>
+      </div>
+      <div class="services__item-container flex-end">
+        <p class="service__item-description">
+
+          Los ejercicios se actualizarán todos los días para que no te pierdas nada nuevo. Contamos con un equipo que
+          actualiza todos los días nuestro blog para que estén todos en la misma sincronía.
+        </p>
+        <img src="./img/Parrafos/Actualizar_MV.png" alt="Todos los días algo nuevo" class="service__item-img"
+          width="92px" height="69px">
+      </div>
+      <div class="services__item-container">
+        <img src="./img/Parrafos/cuidado_MV.png" alt="Entrenamientos personalizados" class="service__item-img"
+          width="92px" height="69px">
+        <p class="service__item-description">
+          No todos los entrenamientos y dietas son para cualquier persona. Por eso, personalizamos y atendemos
+          focalizadamente cada situación en particular, para lograr la mayor efectividad en todos los sentidos. Con una
+          conexión cuerpo-mente con el ejercicio.
+        </p>
+      </div>
+      <div class="services__item-container flex-end">
+        <p class="service__item-description">
+          Nosotros nos encargamos de adaptar todo a tu gusto y al objetivo que tienes en mente. Contamos con
+          entrenamientos funcionales que sirven para potencias las actividades que cada persona realice externas a
+          nosotros, ya sea para un deporte u otra actividad que realices.
+        </p>
+        <img src="./img/Parrafos/gusto_MV.png" alt="Valoracion" class="service__item-img" width="92px" height="69px">
+      </div>
+    </section>
+
+    <section class="contact-us" id="contact">
+      <div class="contact-text">
+        <span>La comunidad unida</span>
+        <h4>Comunícate con nosotros</h4>
+        <p>
+          Llena este formulario para cualquier duda que tengas. ¡Así nuestra
+          comunidad está más unida!
+        </p>
+      </div>
+      <div class="contact__form-container">
+        <form action="https://formsubmit.co/maquieirafelipe@gmail.com" method="POST" class="contact__form"
+          id="contact-form">
+          <div class="form__control">
+            <label for="name">Nombre *</label>
+            <input class="contact__form-input" type="text" placeholder="Nombre" name="nombre" id="name">
+          </div>
+
+          <div class="form__control">
+            <label for="lastname">Apellido *</label>
+            <input class="contact__form-input" type="text" placeholder="Apellido" name="apellido" id="lastname">
+          </div>
+
+          <div class="form__control">
+            <label for="email">Email *</label>
+            <input class="contact__form-input" type="email" placeholder="Dirección de correo electrónico" name="email"
+              id="email">
+          </div>
+
+          <div class="form__control">
+            <label for="comments">Comentarios *</label>
+            <input class="contact__form-input" type="text" placeholder="Comentarios" name="comentarios" id="comments">
+          </div>
+
+          <div class="form__rules-container">
+            <span class="form__rules">* Campos obligatorios</span>
+
+            <button disabled type="submit" id="contact__form-submit">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__items-container">
+        <div class="footer__items">
+          <h4>Datos</h4>
+          <div class="footer__items-decription">
+            <p>Felipe</p>
+            <p>Maquieira</p>
+            <p>Maquetado y Desarrollo Web</p>
+          </div>
+        </div>
+        <div class="footer__items">
+          <h3>Cursada</h3>
+          <div class="footer__items-decription">
+            <p>Turno mañana</p>
+            <p>Comisión DMM2CP</p>
+            <p>1er Año</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__social-media">
+        <div>
+          <h4>Pick Work</h4>
+          <p>¡Seguinos en nuestras redes!</p>
+        </div>
+        <div class="social-media">
+          <a href="https://twitter.com/home" target="_blank" referrerpolicy="no-referrer">
+            <img src="./img/Social/Twitter_MV.png" alt="Twitter" width="40px" height="33px">
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" referrerpolicy="no-referrer">
+            <img src="./img/Social/FC_MV.png" alt="Facebook" width="30px" height="40px">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" referrerpolicy="no-referrer">
+            <img src="./img/Social/IG_MV.png" alt="Instagram" width="40px" height="40px">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__rights">
+      <span>© 2022 Pick Work. DERECHOS DE AUTOR RESERVADOS.</span>
+    </div>
+  </footer>
+
+  <!--========== OVERLAY ==========-->
+  <div id="overlay"></div>
+
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" aria-label="Scroll to the top of the page" class="scroll-top" id="scroll-top">
+    <i class="fa-sharp fa-solid fa-arrow-up scroll-top__icon"></i>
+  </a>
+
+  <!--========== SCROLL REVEAL ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== JS ==========-->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
